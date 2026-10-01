@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bibliotecarios_foguetes",
+  "version": "${version}",
+  "name": "Bibliotecários Vendem Foguetes",
+  "description": "Todo bibliotecário vende 1 foguete (Flight 1) por 1 esmeralda.",
+  "authors": ["voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bibliotecarios.foguetes.BibliotecariosFoguetes"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "fabric-api": "*"
+  }
+}
